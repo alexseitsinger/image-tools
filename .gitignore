@@ -1,13 +1,14 @@
-# general things to ignore
+# Directories
 build/
 dist/
 *.egg-info/
-*.egg
-*.py[cod]
 __pycache__/
-*.so
-*~
+*.egg
 
-# due to using tox and pytest
+# Files
+*~
+*.so
+*.py[cod]
 .tox
 .cache
+.env
